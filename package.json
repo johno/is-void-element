@@ -11,7 +11,11 @@
     "test": "ava -v"
   },
   "repository": "johnotander/is-void-element",
-  "keywords": [],
+  "keywords": [
+    "html",
+    "void",
+     "w3c"
+  ],
   "license": "MIT",
   "dependencies": {
     "html-void-elements": "^1.0.1"
