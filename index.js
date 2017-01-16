@@ -1,7 +1,11 @@
 'use strict'
 
-module.exports = function isVoidElement (options) {
-  options = options || {}
+const voidElements = require('html-void-elements')
 
-  return true
+module.exports = (element) => {
+  if (typeof element !== 'string') {
+    throw new TypeError('is-void-element expected a string')
+  }
+
+  return voidElements.indexOf(element) !== -1
 }
