@@ -1,0 +1,22 @@
+{
+  "name": "is-void-element",
+  "description": "Determine whether an html tag is a void element",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": "johnotander/is-void-element",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "html-void-elements": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "*"
+  }
+}
